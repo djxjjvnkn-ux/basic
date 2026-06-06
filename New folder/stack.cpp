@@ -14,7 +14,17 @@ int push(int x){
         isnull1=0;
         sl1++;
     }
-    else{ 
-          
+    else{
+        top1++;
+        sl1++;
+        stack1[top1]=x;
+        isnull=0;  
+    }
+int pop(){
+    if(isnull1) return -1;
+    else{
+        y=stack1[top1];
+        top1--;
+        sl1--;
     }
 }
