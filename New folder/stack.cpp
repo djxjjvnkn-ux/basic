@@ -23,7 +23,7 @@ int push(int x){
 int pop(){
     if(isnull1) return -1;
     else{
-        y=stack1[top1];
+        int y=stack1[top1];
         top1--;
         sl1--;
     }
